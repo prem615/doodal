@@ -1,0 +1,41 @@
+.buton{
+    font-family: 'Fruktur', cursive;
+    height: 70px;;
+    font-size: 45px;
+    width: 1500px;
+    color:aquamarine;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.body2{
+    width: 2500px;
+    height:90px;
+    background-image:url(https://thumbs.dreamstime.com/t/horizontal-vector-banner-beach-sun-beds-umbrellas-sea-silhouettes-clouds-vacation-cartoon-illustration-panorama-73167956.jpg);
+}
+
+.ys,.c,.s,.t{
+    font-size: 25px;
+}
+
+.stbd{
+    font-size: 30px;
+    color:red
+}
+
+canvas{
+    margin-top: 50px;
+    border:5px solid white;
+    border-radius: 10px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes example{
+    from{box-shadow:10px 10px 45px grey;}
+    to{box-shadow:10px 10px 45px white;}
+}
